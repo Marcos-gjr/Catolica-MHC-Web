@@ -1,16 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/flexbox.css">
+    <title>MHC - Certificados</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/dashboard.css">
-    <title>Home</title>
 
-    <link rel="icon" type="imagem/png" href="" />
+    <link rel="icon" type="imagem/png" href="/images/certificado.png" />
 </head>
+
 <body>
+
+    <header>
+
+        <nav class="cabecalho">
+            <h2 class="logo">CERTIFICADOS</h2>
+
+            <div class="cabecalho__pesquisar">
+
+                <input type="search" placeholder="Pesquisar" id="pesquisar" class="pesquisar__input" data-pesquisa>
+                <button class="pesquisar__botao"  data-botao-pesquisa>
+
+            </div>
+
+            <div class="cabecalho__icones">
+                <a href="./pages/enviar-video.html" class="cabecalho__videos"></a>
+            </div>
+        </nav>
+
+    </header>
     <div class="navigation">
         <ul>
             <li>
@@ -21,7 +47,7 @@
             </li>
             <li>
                 <a href="certificados.html">
-                    <span class="icon"><i class="fa-solid fa-certificate"></i></span>
+                    <span class="icon"><i class="fa-solid fa-bell"></i></span>
                     <span class="title">Certificados</span>
                 </a>
             </li>
@@ -38,8 +64,15 @@
                 </a>
             </li>
         </ul>
-        
     </div>
-    <!--<div class="toggle"></div>-->
+    <ul class="videos__container" alt="video" data-lista>
+   
+
+    </ul>
+
+    <script src="js/mostrarVideos.js" type="module"> </script>
+    <script src="js/buscarVideo.js" type="module"> </script>
+    
 </body>
-</html> 
+
+</html>

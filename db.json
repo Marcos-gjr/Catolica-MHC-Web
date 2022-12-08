@@ -1,0 +1,25 @@
+{
+  "videos": [
+    {
+      "id": 1,
+      "titulo": "Titulo 2",
+      "aluno": "pedro",
+      "time": "60 horas",
+      "url": "https://www.nacientifico.com.br/wp-content/uploads/2020/03/aa.jpg"
+    },
+    {
+      "id": 2,
+      "titulo": "Titulo 3",
+      "aluno": "joao",
+      "time": "50 horas",
+      "url": "https://www.nacientifico.com.br/wp-content/uploads/2020/03/aa.jpg"
+    },
+    {
+      "id": 3,
+      "titulo": "Titulo 4",
+      "aluno": "maria",
+      "time": "70 horas",
+      "url": "https://www.nacientifico.com.br/wp-content/uploads/2020/03/aa.jpg"
+    }
+  ]
+}
